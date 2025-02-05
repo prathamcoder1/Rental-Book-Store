@@ -1,22 +1,28 @@
 # FRONTEND:
 Environoment Variables:
+
   REACT_APP_BASE_URL=http://localhost:8000
+
 
 # BACKEND:
 Environoment Variables:
+
   MONGO_URI="your_db_connection_string"
 
 
 Frontend URL (adjust if needed)
+
   ORIGIN="http://localhost:3000"
 
 
 Email credentials for sending password resets and OTPs
+
   EMAIL="your_email" 
   PASSWORD="passcode"
 
 
 Token and cookie expiration settings
+
   LOGIN_TOKEN_EXPIRATION="30d"  # Days
   OTP_EXPIRATION_TIME="120000"  # Milliseconds
   PASSWORD_RESET_TOKEN_EXPIRATION="2m"  # Minutes
@@ -24,9 +30,11 @@ Token and cookie expiration settings
 
 
 Secret key for jwt security
+
   SECRET_KEY="your_secret_key"
 
 Environment (production/development)
+
   PRODUCTION="false" # Initially set to false for development
 
 
