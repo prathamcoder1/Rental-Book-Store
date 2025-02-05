@@ -18,14 +18,18 @@ Frontend URL (adjust if needed)
 Email credentials for sending password resets and OTPs
 
   EMAIL="your_email" 
+  
   PASSWORD="passcode"
 
 
 Token and cookie expiration settings
 
   LOGIN_TOKEN_EXPIRATION="30d"  # Days
+  
   OTP_EXPIRATION_TIME="120000"  # Milliseconds
+  
   PASSWORD_RESET_TOKEN_EXPIRATION="2m"  # Minutes
+  
   COOKIE_EXPIRATION_DAYS="30"    # Days
 
 
