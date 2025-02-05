@@ -11,26 +11,26 @@ Environoment Variables:
 
 
 2. Frontend URL (adjust if needed)
-   i. ORIGIN="http://localhost:3000"
+   1. ORIGIN="http://localhost:3000"
 
 
 3.Email credentials for sending password resets and OTPs
-  i. EMAIL="your_email" 
-  ii. PASSWORD="passcode"
+  1. EMAIL="your_email" 
+  2. PASSWORD="passcode"
 
 
 4.Token and cookie expiration settings
-  i. LOGIN_TOKEN_EXPIRATION="30d"  # Days
-  ii. OTP_EXPIRATION_TIME="120000"  # Milliseconds
-  iii. PASSWORD_RESET_TOKEN_EXPIRATION="2m"  # Minutes
-  iv. COOKIE_EXPIRATION_DAYS="30"    # Days
+  1. LOGIN_TOKEN_EXPIRATION="30d"  # Days
+  2. OTP_EXPIRATION_TIME="120000"  # Milliseconds
+  3. PASSWORD_RESET_TOKEN_EXPIRATION="2m"  # Minutes
+  4. COOKIE_EXPIRATION_DAYS="30"    # Days
 
 
 5.Secret key for jwt security
-  i. SECRET_KEY="your_secret_key"
+  1. SECRET_KEY="your_secret_key"
 
 6.Environment (production/development)
-  i. PRODUCTION="false" # Initially set to false for development
+  1. PRODUCTION="false" # Initially set to false for development
 
 
 # Project Screenshots:
